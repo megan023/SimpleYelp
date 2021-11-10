@@ -12,4 +12,6 @@
     <color name="primary_variant_light">#FF6B9672</color>
     <color name="secondary_light">#FFFDD8AC</color>
     <color name="secondary_variant_light">#FFFFABAF</color>
+
+    <color name="primary_variant_dark">#FF475E4B</color>
 </resources>

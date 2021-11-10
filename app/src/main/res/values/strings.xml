@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SimpleYelp</string>
+    <string name="app_name">Yelp but its only for New York</string>
+    <string name="search_title">Avocado Toast</string>
+    <string name="search_hint">What do you want to eat?</string>
 </resources>
