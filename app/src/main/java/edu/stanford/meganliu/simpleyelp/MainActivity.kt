@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                     return
                 }
                 restaurants.addAll(body.restaurants)
+                Log.i(TAG, "$restaurants")
                 adapter.notifyDataSetChanged()
             }
 

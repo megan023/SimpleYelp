@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="8dp">
 
     <TextView
@@ -70,23 +70,21 @@
         tools:text="Breakfast" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvDistance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tvDistance"
         android:textColor="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="1.7 mi" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="tvPrice"
         android:textColor="@android:color/darker_gray"
-        app:layout_constraintEnd_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/tvDistance"
+        app:layout_constraintTop_toBottomOf="@+id/tvDistance"
         tools:text="$$" />
 </androidx.constraintlayout.widget.ConstraintLayout>
